@@ -1,0 +1,39 @@
+html {-webkit-text-size-adjust:none}
+body {margin:0px;padding:0px;background-color:#ffffff;font:normal 15px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#333;}
+
+div.HeaderBar {padding:8px 10px 7px 10px;background:url(HeaderBar4Content.png) repeat-x top left #e0e0e0;font:bold 13px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#666666}
+
+/* NEWS ARTICLE */
+.NewsArticle {padding:10px}
+.NewsArticle .Title {font-size:19px;color:#b51419;font-weight:bold}
+.NewsArticle .Spot {margin-top:10px;font-size:15px;color:#333;font-weight:bold}
+.NewsArticle .Image {margin-top:10px}
+.NewsArticle .Image img {display:block;border:1px solid #e0e0e0;width:298px}
+.NewsArticle .SocialMedia {clear:both}
+.NewsArticle .SocialMedia table {border:0;border-collapse: collapse;border-spacing:0}
+.NewsArticle .SocialMedia td {padding:10px 10px 0 0;vertical-align:top}
+.NewsArticle .PublishTime {margin-top:10px;font-size:11px;color:#333}
+.NewsArticle .Source {margin-top:10px;font-size:11px;color:#b51419}
+.NewsArticle .Description {margin-top:10px;font-size:15px;color:#333}
+.NewsArticle .Description p {margin:10px 0}
+.NewsArticle .Description img {display:block;max-width:300px}
+
+.NewsArticle .RelatedContent {display:block;background-color:#efefef}
+.NewsArticle .RelatedContent div {display:table-cell;padding:10px;vertical-align:top}
+.NewsArticle .RelatedContent div:nth-child(2) {display:table-cell;padding:10px 10px 10px 0px;vertical-align:middle}
+.NewsArticle .RelatedContent a {color:#333;font-weight:bold}
+.NewsArticle .RelatedContent img {max-width:150px}
+
+.NewsArticle .videoPlayerCont {position:relative;width:300px;margin:20px 0}
+.NewsArticle .videoPlayerCont a {display:block}
+.NewsArticle .videoPlayerCont .playIco {position:absolute;width:54px !important; height: 54px !important;left:123px;top:57px;content:url(http://www.milliyet.com.tr/d/i/1/playarrow.png)}
+.NewsArticle .videoPlayerCont img {width:300px !important; height: 169px !important}
+
+/* TWITTER SHARE BUTTON */
+.twitter-share-button {margin-right:3px !important;float:left}
+
+/* FOOTER */
+.Footer {border-top:1px solid #e0e0e0;padding:20px 0;font-size:15px;color:#666;text-align:center}
+.Footer a {color:#666}
+.Footer .Copyright {font-size:11px}
+

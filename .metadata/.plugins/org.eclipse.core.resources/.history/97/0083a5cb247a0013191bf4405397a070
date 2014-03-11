@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amvg.milliyet.main"
+    android:versionCode="13"
+    android:versionName="2.6" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/launcher_icon"
+        android:label=""
+        android:theme="@style/NoTitleTheme" >
+        
+        <activity
+            android:name="com.amvg.milliyet.main.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.DenemeList"
+            android:label="@string/title_activity_deneme_list" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.BreakingNews"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_breaking_news" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.BreakingNewsCategory"
+            android:label="@string/title_activity_breaking_news_category" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.NewsCategory"
+            android:label="@string/title_activity_news_category" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.NewsCategories"
+            android:label="@string/title_activity_news_categories" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.Columnists"
+            android:label="@string/title_activity_columnists" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.ColumnistsOthers"
+            android:label="@string/title_activity_columnists_other" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.NewsDetail"
+            android:label="@string/title_activity_news_detail" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.ColumnistsDetail"
+            android:label="@string/title_activity_columnists_detail" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.ColumnistsWritings"
+            android:label="@string/title_activity_columnists_writings" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.InterstitialBanner"
+            android:label="@string/title_activity_interstitial_banner" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.Video"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.VideoCategory"
+            android:label="@string/title_activity_video_category" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.VideoDetail"
+            android:label="@string/title_activity_video_detail" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.VideoPlay"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_video_play"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.PhotoGallery"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_photo_gallery" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.VideoLive"
+            android:label="@string/title_activity_video_live" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.Skorer"
+            android:label="@string/title_activity_video_live" >
+        </activity>
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- open external urls -->
+        <activity android:name="de.madvertise.android.sdk.MadvertiseActivity" />
+
+        <!-- Setup your site token. For tests, use 'TestTokn' -->
+        <meta-data
+            android:name="madvertise_site_token"
+            android:value="iVJs20NL" />
+        <!-- iVJs20NL -->
+
+
+        <!-- Mraid TestSuite -->
+        <activity android:name="android.app.Activity" />
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.amvg.milliyet.main.Weather"
+            android:label="@string/title_activity_weather" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.Horoscopes"
+            android:label="@string/title_activity_horoscopes" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.WeatherLocation"
+            android:label="@string/title_activity_weather_location" >
+        </activity>
+        <activity
+            android:name="com.amvg.milliyet.main.HoroscopesArticle"
+            android:label="@string/title_activity_horoscopes_article" >
+        </activity>
+    </application>
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="de.madvertise.test" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

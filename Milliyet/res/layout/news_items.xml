@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:id="@+id/itemLayout"
+    android:layout_height="88dp"
+    android:background="@drawable/title_background">
+	<RelativeLayout 
+	    android:id="@+id/rl"
+	    android:layout_width="match_parent"
+	    android:layout_height="88dp" 
+	    android:orientation="horizontal"
+	    android:paddingRight="11dp">
+	    <RelativeLayout 
+		    android:id="@+id/contentLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="88dp"
+		    android:paddingRight="3dp"
+		    android:layout_alignParentLeft="true"
+	        android:layout_toLeftOf="@+id/arrowLayout">
+    		<TextView
+          		android:id="@+id/saatText"
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+          		android:layout_marginLeft="10dp"
+          		android:text=""
+          		android:layout_centerVertical="true"
+          		android:textSize="16dp" 
+          		android:textStyle="bold"
+          		android:textColor="#b71e23">
+      		</TextView>
+      		<TextView
+          		android:id="@+id/haberText"
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+          		android:layout_marginLeft="10dp"
+          		android:text="No data"
+		  		android:layout_toRightOf="@id/saatText"
+		  		android:layout_centerVertical="true"
+         		android:textSize="16dp" 
+          		android:textStyle="bold"
+          		android:textColor="@color/selector_text_breaking_news">
+      		</TextView>
+      		<TextView
+          		android:id="@+id/type"
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+		  		android:text="no data"
+		  		android:visibility="gone">
+      		</TextView>
+      		<TextView
+          		android:id="@+id/contentType"
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+		  		android:text="no data"
+		  		android:visibility="gone">
+      		</TextView>
+      		<TextView
+          		android:id="@+id/ID"
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+		  		android:text="no data"
+		  		android:visibility="gone">
+      		</TextView>
+      		<TextView
+          		android:id="@+id/categoryId"
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+		  		android:text="no data"
+		  		android:visibility="gone">
+      		</TextView>
+      	</RelativeLayout>
+      	<LinearLayout
+        	android:id="@+id/arrowLayout"
+          	android:layout_width="wrap_content"
+          	android:layout_height="88dp"
+          	android:layout_alignParentRight="true"
+          	android:layout_alignParentTop="true"
+         	android:gravity="center_vertical" >
+          	<ImageView
+            	android:id="@+id/arrow"
+             	android:layout_width="10dp"
+              	android:layout_height="14dp"
+              	android:layout_toRightOf="@id/haberText"
+              	android:layout_weight="0"
+              	android:src="@drawable/arrow_selector" />
+      	</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

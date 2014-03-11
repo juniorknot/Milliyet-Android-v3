@@ -1,0 +1,22 @@
+html {-webkit-text-size-adjust:none}
+body {margin:0px;padding:0px;background-color:#ffffff;font:normal 15px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#333;}
+
+.HeaderBar {padding:8px 10px 7px 10px;background:url('HeaderBar~iphone.png') repeat-x top left;font:bold 13px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#666}
+
+.PhotoGallery {}
+.PhotoGallery .Title {display:block;padding:6px 10px 5px 10px;color:#fff;font-size:15px;font-weight:bold;text-align:center;background-color:#000}
+.PhotoGallery .Image {background-color:#000}
+.PhotoGallery .Image img {display:block;border:0;width:320px;margin:auto}
+.PhotoGallery .Image {background-color:#000}
+.PhotoGallery .Pages {background-color:#000;height:30px;text-align:center}
+.PhotoGallery .Pages div {display:inline-block;margin:auto}
+.PhotoGallery .Pages img {display:inline-block;float:left}
+.PhotoGallery .Pages span {display:inline-block;float:left;line-height:30px;font-size:13px;font-weight:bold;color:#7f7f7f}
+.PhotoGallery .Description {margin:10px 0;padding:0 10px;font-size:15px;font-weight:bold;color:#333;text-align:center}
+.PhotoGallery .Description p {margin:10px 0}
+.PhotoGallery .Resource {margin-top:10px;padding:0 10px;font-size:11px;color:#333}
+.PhotoGallery .PublishTime {margin-top:10px;padding:0 10px;font-size:11px;color:#333}
+
+.Footer {border-top:1px solid #e0e0e0;padding:20px 0;font-size:15px;color:#666;text-align:center}
+.Footer a {color:#666}
+.Footer .Copyright {font-size:11px}

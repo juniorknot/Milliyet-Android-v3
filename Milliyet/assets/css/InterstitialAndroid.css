@@ -1,0 +1,8 @@
+/* MAIN */
+html {-webkit-text-size-adjust:none}
+body {margin:0px;padding:0px;background-color:#000;font-family:Helvetica, Arial, sans-serif;font-size:15px;color:#fff}
+a {color:#fff;text-decoration:none}
+
+div.Banner {}
+div.Banner a {display:block}
+div.Banner img {display:block;margin:auto}

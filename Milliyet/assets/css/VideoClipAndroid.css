@@ -1,0 +1,27 @@
+html {-webkit-text-size-adjust:none}
+body {margin:0px;padding:0px;background-color:#ffffff;font:normal 15px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#333;}
+
+div.HeaderBar {padding:8px 10px 7px 10px;background:url('HeaderBar~iphone.png') repeat-x top left #e0e0e0;font:bold 13px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#666}
+
+.VideoClipImage {background-color:#000}
+.VideoClipImage img {display:block;border:0;margin:auto;width:320px}
+.VideoClip {padding:10px}
+.VideoClip .Title {font-size:17px;color:#b51419;font-weight:bold}
+.VideoClip .Spot {margin-top:10px;font-size:15px;color:#333}
+.VideoClip .SocialMedia {margin-top:10px;height:87px}
+.VideoClip .PublishTime {margin-top:10px;font-size:13px;color:#333}
+.VideoClip .ViewCount {margin-top:10px;font-size:13px;color:#333}
+
+/* VIDEO IMAGE */
+.VideoImage {display:block;position:relative}
+.VideoImage img {display:block}
+.VideoImage .VideoPlay {position:absolute;top:0;left:0;height:100%;width:100%;background:url('video_play.png') center center no-repeat;z-index:999}
+.VideoImage .VideoPlaySmall {position:absolute;top:0;left:0;height:100%;width:100%;background:url(VideoPlaySmall.png) center center no-repeat;z-index:999}
+
+/* TWITTER SHARE BUTTON */
+.twitter-share-button {margin-right:3px !important;float:left}
+
+/* FOOTER */
+.Footer {border-top:1px solid #e0e0e0;padding:20px 0;font-size:15px;color:#666;text-align:center}
+.Footer a {color:#666}
+.Footer .Copyright {font-size:11px}

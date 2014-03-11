@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     			android:layout_width="match_parent" 
+                  android:id="@+id/itemLayout"
+                  android:layout_height="88dp"
+                  android:background="@drawable/title_background">
+<RelativeLayout 
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="88dp" 
+    android:orientation="horizontal"
+    android:paddingRight="11dp">
+
+    <RelativeLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:gravity="center_vertical"
+        android:padding="3dp" 
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/arrowLayout">
+
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="135dp"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@id/contentLayout"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:background="#e0e0e0">
+        <ImageView
+            android:id="@+id/newsImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            
+            android:src="@drawable/haber" />
+
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content"
+    		  android:layout_height="wrap_content"
+    		  android:layout_toRightOf="@+id/imageLayout"
+    		  android:gravity="center_vertical"
+    		  android:layout_centerVertical="true"
+    		  android:orientation="vertical">
+      <TextView
+          android:id="@+id/saatText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textColor="#b71e23"
+          android:textSize="15dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/haberText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="No data"
+          android:textColor="@color/selector_text_breaking_news"
+          android:textSize="15dp"
+          android:textStyle="bold" />
+</LinearLayout>
+      <TextView
+          android:id="@+id/type"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+		  android:text="no data"
+		  android:visibility="gone">
+      </TextView>
+      <TextView
+          android:id="@+id/contentType"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+		  android:text="no data"
+		  android:visibility="gone">
+      </TextView>
+      <TextView
+          android:id="@+id/ID"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+		  android:text="no data"
+		  android:visibility="gone">
+      </TextView>
+      <TextView
+          android:id="@+id/categoryId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+		  android:text="no data"
+		  android:visibility="gone">
+      </TextView>
+
+      </RelativeLayout>
+      <LinearLayout android:layout_width="wrap_content" 
+                  android:id="@+id/arrowLayout"
+                  android:layout_height="88dp"
+                  android:gravity="center_vertical"
+                  android:layout_alignParentRight="true"
+          		  android:layout_alignParentTop="true">
+      <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="10dp"
+        android:layout_height="14dp"
+        android:layout_weight="0"
+        android:layout_toRightOf="@id/haberText"
+        android:src="@drawable/arrow_selector" >
+    </ImageView>
+    </LinearLayout>
+
+</RelativeLayout>
+</LinearLayout>

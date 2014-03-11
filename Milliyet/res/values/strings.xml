@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Milliyet</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="con_title">Bağlantı sorunu</string>
+    <string name="yeniden_dene">Yeniden dene</string>
+    <string name="app_versionName">1.0</string>
+    <string name="vazgec">Vazgeç</string>
+    <string name="con_message">İnternet bağlantınızı kontrol ediniz!</string>
+    <string name="update_title">Güncelleme</string>
+    <string name="update_message">Bu uygulamanın sorunsuz çalışabilmesi için güncellenmesi gerekmektedir.</string>
+    <string name="update_dahasonra">Daha sonra</string>
+    <string name="update_simdi">Şimdi</string>
+    <string name="title_activity_deneme_list">DenemeList</string>
+    <string name="title_activity_breaking_news">BreakingNews</string>
+    <string name="title_activity_breaking_news_category">BreakingNewsCategory</string>
+    <string name="title_activity_news_category">NewsCategory</string>
+    <string name="title_activity_news_categories">NewsCategories</string>
+    <string name="title_activity_columnists">Columnists</string>
+    <string name="title_activity_columnists_other">ColumnistsOther</string>
+    <string name="title_activity_news_detail">NewsDetail</string>
+    <string name="title_activity_columnists_detail">ColumnistsDetail</string>
+    <string name="title_activity_columnists_writings">ColumnistsWritings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_interstitial_banner">InterstitialBanner</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_video_category">VideoCategory</string>
+    <string name="title_activity_video_detail">VideoDetail</string>
+    <string name="title_activity_video_play">VideoPlay</string>
+    <string name="title_activity_photo_gallery">PhotoGallery</string>
+    <string name="title_activity_video_live">VideoLive</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_horoscopes">Horoscopes</string>
+    <string name="title_activity_weather_location">WeatherLocation</string>
+    <string name="title_activity_horoscopes_article">HoroscopesArticle</string>
+
+</resources>

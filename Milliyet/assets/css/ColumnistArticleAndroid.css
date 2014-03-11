@@ -1,0 +1,39 @@
+html {-webkit-text-size-adjust:none}
+body {margin:0px;padding:0px;background-color:#ffffff;font:normal 15px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#333;}
+
+div.HeaderBar {padding:8px 10px 7px 10px;background:url('HeaderBar~iphone.png') repeat-x top left #e0e0e0;font:bold 13px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#666}
+
+.ColumnistArticle {padding:10px}
+.ColumnistArticle .Image {float:left;display:inline-block;margin:0 10px 0 0}
+.ColumnistArticle .Image img {border:1px solid #e0e0e0;height:87px}
+.ColumnistArticle .Columnist {margin:0px;font-size:15px;color:#333;font-weight:bold}
+.ColumnistArticle .CornerName {margin-top:5px;font-size:15px;color:#666;font-weight:bold}
+.ColumnistArticle .ColumnistArticles {margin-top:5px;font-size:13px;color:#b51419;font-weight:bold}
+.ColumnistArticle .ColumnistArticles a {color:#b51419;text-decoration:none}
+.ColumnistArticle .PublishDate {margin-top:5px;font-size:13px;color:#333}
+.ColumnistArticle .SocialMedia {clear:both;margin-top:10px;height:87px}
+.ColumnistArticle .Title {clear:both; padding-top:10px;font-size:17px;color:#b51419;font-weight:bold}
+.ColumnistArticle .Spot {margin-top:10px;font-size:15px;color:#333;font-weight:bold}
+.ColumnistArticle .Description {margin-top:10px} 
+.ColumnistArticle .Description p {margin:10px 0} 
+.ColumnistArticle .Description img {display:block;max-width:300px} 
+
+.ColumnistArticle .RelatedContent {display:block;background-color:#efefef} 
+.ColumnistArticle .RelatedContent div {display:table-cell;padding:10px;vertical-align:top} 
+.ColumnistArticle .RelatedContent div:nth-child(2) {display:table-cell;padding:10px 10px 10px 0px;vertical-align:middle} 
+.ColumnistArticle .RelatedContent a {color:#333;font-weight:bold} 
+.ColumnistArticle .RelatedContent img {max-width:150px} 
+
+.ColumnistArticle .videoPlayerCont {position:relative;width:300px;margin:20px 0} 
+.ColumnistArticle .videoPlayerCont a {display:block} 
+.ColumnistArticle .videoPlayerCont .playIco {position:absolute;width:54px !important; height: 54px !important;left:123px;top:57px;content:url(http://www.milliyet.com.tr/d/i/1/playarrow.png)} 
+.ColumnistArticle .videoPlayerCont img {width:300px !important; height: 169px !important}
+
+/* TWITTER SHARE BUTTON */
+.twitter-share-button {margin-right:3px !important;float:left}
+
+/* FOOTER */
+.Footer {border-top:1px solid #e0e0e0;padding:20px 0;font-size:15px;color:#666;text-align:center}
+.Footer a {color:#666}
+.Footer .Copyright {font-size:11px}
+

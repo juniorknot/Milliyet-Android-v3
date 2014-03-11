@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center">
+	    <RelativeLayout
+    		style="@style/GenericProgressBackground"
+    		android:id="@+id/loadingPanel">
+    		<ProgressBar
+        		style="@style/GenericProgressIndicator"/>
+		</RelativeLayout>
+	    <ImageView 
+	        android:id="@+id/videoImage"
+	        android:layout_width="320dp"
+	        android:layout_height="400dp"
+	        android:layout_centerInParent="true"
+	        android:scaleType="fitXY"/>
+	    <ImageView 
+		    android:id="@+id/PlayIcon"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:visibility="gone"
+		    android:layout_centerInParent="true"
+		    android:src="@drawable/video_play_small"/>
+	    <LinearLayout
+	        android:id="@+id/BlackBand"
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:background="#80000000"
+	        android:layout_alignBottom="@+id/videoImage" >
+	        <TextView 
+	            android:id="@+id/VideoTitle"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="center"
+	            android:textColor="#FFFFFF"
+	            android:textStyle="bold"
+	            android:textSize="14dp"/>
+	    </LinearLayout>
+	</RelativeLayout>        
+</LinearLayout>

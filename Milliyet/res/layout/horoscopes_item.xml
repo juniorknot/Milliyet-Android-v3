@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="185dp"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+	<ImageView 
+		android:id="@+id/HoroscopeIcon"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:paddingTop="20dp"
+	  	android:src="@drawable/koc"/>
+	<TextView 
+	  	android:id="@+id/HoroscopeName"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:text="Koç"
+	  	android:textSize="17dp"
+	  	android:paddingTop="4dp"
+	  	android:textStyle="bold"
+	  	android:textColor="#636563"/>
+	<TextView 
+	  	android:id="@+id/HoroscopeElement"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:text="Ateş + Öncü"
+	  	android:paddingTop="1dp"
+	  	android:textColor="#636563"/>
+	<TextView 
+	  	android:id="@+id/HoroscopeTarihBas"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:text="21 Mart"
+	  	android:paddingTop="1dp"
+	  	android:textColor="#636563"/> 
+	<TextView 
+	  	android:id="@+id/HoroscopeTarihSon"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:text="20 Nisan"
+	  	android:paddingTop="1dp"
+	  	android:textColor="#636563"/>
+</LinearLayout>

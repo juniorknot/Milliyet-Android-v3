@@ -1,0 +1,65 @@
+<LinearLayout  
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1"  
+    android:layout_height="44dp"
+    android:orientation="horizontal"
+    android:background="@drawable/pattern">
+ 	<LinearLayout
+    	android:id="@+id/lo"
+     	android:layout_width="match_parent"
+     	android:layout_height="44dp"
+     	android:paddingRight="11dp"
+     	android:paddingTop="5dp"
+     	android:paddingBottom="5dp"
+     	android:paddingLeft="5dp" >
+      	<ImageView
+	        android:id="@+id/logo"
+	        android:layout_width="32dp"
+	        android:layout_height="32dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_weight="0" >
+    	</ImageView>
+      	<TextView
+        	android:id="@+id/empty"
+          	android:layout_width="wrap_content"
+          	android:layout_height="wrap_content"
+          	android:layout_gravity="center_vertical"
+          	android:layout_marginLeft="10dp"
+          	android:text="No data"
+          	android:layout_weight="1"
+          	android:textSize="16dp" 
+          	android:textStyle="bold"
+          	android:textColor="@color/selector_text">
+      	</TextView>
+      	<ImageView
+        	android:id="@+id/arrow"
+	        android:layout_width="10dp"
+	        android:layout_height="14dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_weight="0"
+	        android:src="@drawable/arrow_selector" >
+    	</ImageView>
+	</LinearLayout>
+  	<TextView
+    	android:id="@+id/controller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="no data"
+		android:visibility="gone">
+    </TextView>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="no data"
+		android:visibility="gone">
+    </TextView>
+ 	<TextView
+        android:id="@+id/CID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="no data"
+		android:visibility="gone">
+    </TextView>
+ </LinearLayout>

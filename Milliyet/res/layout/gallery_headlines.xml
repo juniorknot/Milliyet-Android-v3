@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:gravity="center">
+	    <RelativeLayout
+    		style="@style/GenericProgressBackground"
+    		android:id="@+id/loadingPanel">
+    		<ProgressBar
+        		style="@style/GenericProgressIndicator"/>
+		</RelativeLayout>
+		<TextView 
+		    android:id="@+id/VideoTitle"
+		    android:layout_width="match_parent"
+		    android:layout_height="29dp"
+		    android:background="#000000"
+		    android:textColor="#FFFFFF"
+		    android:textStyle="bold"
+		    android:gravity="center"/>
+	    <ImageView  
+	        android:id="@+id/videoImage"
+	        android:layout_below="@+id/VideoTitle"
+	        android:layout_width="320dp"
+	        android:layout_height="360dp"
+	        android:layout_centerInParent="true"
+	        android:scaleType="fitXY"/>
+	</RelativeLayout>        
+</LinearLayout>

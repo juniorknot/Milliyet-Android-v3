@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/YasamItem"
+ 		android:layout_width="match_parent"
+ 		android:layout_height="26dp"
+ 		android:gravity="center_vertical"
+ 		android:background="#FFFFFF">
+		<View
+			android:id="@+id/DividerSol0"
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="#e0e0e0"
+			android:layout_alignParentLeft="true"/>
+		<TextView
+ 			android:id="@+id/Title"
+ 			android:layout_width="135dp"
+ 			android:paddingLeft="5dp"
+ 			android:layout_height="wrap_content"
+ 			android:layout_toRightOf="@+id/DividerSol0"
+ 			android:layout_centerVertical="true"
+ 			android:text="Hissedilen Sıcaklık"
+ 			android:textColor="#333333"
+ 			android:textSize="13dp"
+ 			android:textStyle="bold" />
+		<TextView 
+ 			android:id="@+id/Nokta0"
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:text=":"
+ 			android:layout_centerVertical="true"
+ 			android:textColor="#333333"
+ 			android:textStyle="bold"
+ 			android:textSize="13dp"
+ 			android:layout_toRightOf="@+id/Title"/>
+		<TextView
+ 			android:id="@+id/ValueText"
+ 			android:layout_width="match_parent"
+ 			android:layout_height="wrap_content"
+ 			android:layout_centerVertical="true"
+ 			android:text="Mükemmel"
+ 			android:textColor="#3fe50f"
+ 			android:textSize="13dp"
+ 			android:textStyle="bold"
+ 			android:layout_toRightOf="@+id/ValueIcon" />
+		<View
+			android:id="@+id/DividerSag0"
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="#e0e0e0"
+			android:layout_alignParentRight="true"/>
+		<ImageView
+			android:id="@+id/ValueIcon"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignTop="@+id/ValueText"
+			android:layout_toRightOf="@+id/Nokta0"
+			android:src="@drawable/weather_index_a" />
+	</RelativeLayout>
+ 	<View 
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#e0e0e0"/>
+</LinearLayout>

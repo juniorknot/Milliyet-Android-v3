@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@color/listview_selector_white">
+    <LinearLayout
+    	android:layout_width="match_parent"
+        android:layout_height="42dp" 
+        android:gravity="center">
+        <TextView
+        	android:id="@+id/showAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tümünü göster"
+            android:textColor="#666666"
+            android:textSize="16dp"/>
+        <TextView
+          	android:id="@+id/type"
+          	android:layout_width="wrap_content"
+          	android:layout_height="wrap_content"
+		  	android:text="no data"
+		  	android:visibility="gone">
+      	</TextView>
+      	<TextView
+          	android:id="@+id/categoryId"
+          	android:layout_width="wrap_content"
+          	android:layout_height="wrap_content"
+		  	android:text="no data"
+		  	android:visibility="gone">
+      	</TextView>
+      	<TextView
+          	android:id="@+id/categoryName"
+          	android:layout_width="wrap_content"
+          	android:layout_height="wrap_content"
+		  	android:text="no data"
+		  	android:visibility="gone">
+      	</TextView>
+    </LinearLayout>
+</LinearLayout>

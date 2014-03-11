@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:id="@+id/linearLayout1"  
+        android:gravity="center"
+        android:layout_height="44dp"
+        android:background="@drawable/navigation_bar"
+        android:orientation="horizontal">
+ 		<RelativeLayout
+     		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+     		android:background="@drawable/navigation_bar" >
+     		<ImageView 
+     		    android:id="@+id/backImage" 
+            	android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/back"/>
+     		<ImageView
+                android:id="@+id/logoImage"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/navigation_bar_logo"
+                android:layout_centerHorizontal="true" />
+    		<ImageView
+                android:id="@+id/refreshImage"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navigation_bar_refresh"
+                android:layout_alignParentRight="true" />
+ 		</RelativeLayout>
+ 	</LinearLayout>
+  	<ListView 
+    	android:id="@+id/list"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:divider="#E0E0E0"
+    	android:dividerHeight="1dp">
+	</ListView>
+</LinearLayout>

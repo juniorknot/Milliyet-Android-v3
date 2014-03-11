@@ -1,0 +1,18 @@
+/* HOROSCOPE */
+.Horoscope {padding:10px}
+html {-webkit-text-size-adjust:none}
+body {margin:0px;padding:0px;background-color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:15px;color:#666666}
+.HeaderBar {height:22px;padding:9px 10px 3px 10px;background:url(HeaderBar4Content.png) repeat-x top left #e0e0e0;font-size:15px;font-weight:bold}
+.Horoscope .Image {float:left;display:inline-block;margin:0 20px 0 0}
+.Horoscope .Name {font-size:21px;color:#b51419;font-weight:bold}
+.Horoscope .Element {margin:5px;font-size:15px;color:#333;}
+.Horoscope .DateRange {margin-top:5px;font-size:15px;color:#666;}
+.Horoscope .Title {clear:both;padding-top:20px;font-size:13px;color:#b51419;font-weight:bold}
+.Horoscope .Description {margin-top:10px}
+.Horoscope .Description p {margin:10px 0}
+.Horoscope .SocialMedia {margin-top:10px}
+
+/* FOOTER */
+.Footer {border-top:1px solid #e0e0e0;padding:20px 0;font-size:15px;color:#666;text-align:center}
+.Footer a {color:#666}
+.Footer .Copyright {font-size:11px}
