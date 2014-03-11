@@ -104,7 +104,6 @@ public class BreakingNews extends FragmentActivity implements AnimationListener
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_breaking_news);
-		Log.e("hello","hi");
 		mGaInstance = GoogleAnalytics.getInstance(this);
 		mGaTracker = mGaInstance.getTracker("UA-15581378-12");
 		mGaTrackerGlobal = mGaInstance.getTracker("UA-15581378-27");
